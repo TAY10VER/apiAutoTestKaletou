@@ -1,0 +1,287 @@
+2022-01-28 10:41:05,545 INFO [root] [api_register.py (__init__:14] - 正在初始化注册url：https://kalele.swkjapi.cn/user/register
+2022-01-28 10:41:05,547 INFO [root] [api_register.py (__init__:17] - 正在初始化手机注册--发送验证码url：https://kalele.swkjapi.cn/user/reg_send_sms
+2022-01-28 10:41:05,548 INFO [root] [api_register.py (__init__:20] - 正在初始化手机注册--验证验证码url：https://kalele.swkjapi.cn/user/check_reg_sms
+2022-01-28 10:41:05,548 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '123456', 're_password': '123456', 'type': 'email'}
+2022-01-28 10:41:06,290 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600024，实际相应状态码：600024
+2022-01-28 10:41:06,292 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：1，实际相应msg：电子邮箱已存在
+2022-01-28 10:41:06,411 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '11111111111111111111', 'password': '123456', 're_password': '123456', 'type': 'email'}
+2022-01-28 10:41:06,703 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600023，实际相应状态码：600023
+2022-01-28 10:41:06,704 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：1，实际相应msg：电子邮箱格式错误
+2022-01-28 10:41:06,714 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '', 'password': '12345678', 're_password': '12345678', 'type': 'email'}
+2022-01-28 10:41:07,017 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600021，实际相应状态码：600021
+2022-01-28 10:41:07,018 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：1，实际相应msg：邮箱或密码不能为空
+2022-01-28 10:41:07,033 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '5465327457@kacn.com', 'password': '', 're_password': '', 'type': 'email'}
+2022-01-28 10:41:07,321 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600021，实际相应状态码：600021
+2022-01-28 10:41:07,322 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：1，实际相应msg：邮箱或密码不能为空
+2022-01-28 10:41:07,336 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '5465327457@kacn.com', 'password': '12345', 're_password': '12345', 'type': 'email'}
+2022-01-28 10:41:07,657 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600025，实际相应状态码：600025
+2022-01-28 10:41:07,658 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：1，实际相应msg：密码长度为6~20个字符
+2022-01-28 10:41:07,673 INFO [root] [api_register.py (api_register_send_sms:42] - 正在调用手机注册——发送验证码接口，请求数据：{'nation_code': '86', 'phone': '17696640601'}
+2022-01-28 10:41:07,956 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600029，实际相应状态码：600029
+2022-01-28 10:41:07,956 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电话已存在，实际相应msg：电话已存在
+2022-01-28 11:00:57,738 INFO [root] [api_register.py (__init__:14] - 正在初始化注册url：https://kalele.swkjapi.cn/user/register
+2022-01-28 11:00:57,738 INFO [root] [api_register.py (__init__:17] - 正在初始化手机注册--发送验证码url：https://kalele.swkjapi.cn/user/reg_send_sms
+2022-01-28 11:00:57,738 INFO [root] [api_register.py (__init__:20] - 正在初始化手机注册--验证验证码url：https://kalele.swkjapi.cn/user/check_reg_sms
+2022-01-28 11:00:57,738 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '123456', 're_password': '123456', 'type': 'email'}
+2022-01-28 11:00:58,076 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600024，实际相应状态码：600024
+2022-01-28 11:00:58,076 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电子邮箱已存在，实际相应msg：电子邮箱已存在
+2022-01-28 11:00:58,079 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '11111111111111111111', 'password': '123456', 're_password': '123456', 'type': 'email'}
+2022-01-28 11:00:58,357 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600023，实际相应状态码：600023
+2022-01-28 11:00:58,358 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电子邮箱格式错误，实际相应msg：电子邮箱格式错误
+2022-01-28 11:00:58,363 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '', 'password': '12345678', 're_password': '12345678', 'type': 'email'}
+2022-01-28 11:00:58,638 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600021，实际相应状态码：600021
+2022-01-28 11:00:58,638 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱或密码不能为空，实际相应msg：邮箱或密码不能为空
+2022-01-28 11:00:58,642 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '5465327457@kacn.com', 'password': '', 're_password': '', 'type': 'email'}
+2022-01-28 11:00:58,916 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600021，实际相应状态码：600021
+2022-01-28 11:00:58,917 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱或密码不能为空，实际相应msg：邮箱或密码不能为空
+2022-01-28 11:00:58,922 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '5465327457@kacn.com', 'password': '12345', 're_password': '12345', 'type': 'email'}
+2022-01-28 11:00:59,211 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600025，实际相应状态码：600025
+2022-01-28 11:00:59,211 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：密码长度为6~20个字符，实际相应msg：密码长度为6~20个字符
+2022-01-28 11:00:59,219 INFO [root] [api_register.py (api_register_send_sms:42] - 正在调用手机注册——发送验证码接口，请求数据：{'nation_code': '86', 'phone': '17696640601'}
+2022-01-28 11:00:59,490 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600029，实际相应状态码：600029
+2022-01-28 11:00:59,490 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电话已存在，实际相应msg：电话已存在
+2022-01-28 11:03:10,145 INFO [root] [api_register.py (__init__:14] - 正在初始化注册url：https://kalele.swkjapi.cn/user/register
+2022-01-28 11:03:10,145 INFO [root] [api_register.py (__init__:17] - 正在初始化手机注册--发送验证码url：https://kalele.swkjapi.cn/user/reg_send_sms
+2022-01-28 11:03:10,145 INFO [root] [api_register.py (__init__:20] - 正在初始化手机注册--验证验证码url：https://kalele.swkjapi.cn/user/check_reg_sms
+2022-01-28 11:03:10,146 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '123456', 're_password': '123456', 'type': 'email'}
+2022-01-28 11:03:10,446 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600024，实际相应状态码：600024
+2022-01-28 11:03:10,447 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电子邮箱已存在，实际相应msg：电子邮箱已存在
+2022-01-28 11:03:10,452 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '11111111111111111111', 'password': '123456', 're_password': '123456', 'type': 'email'}
+2022-01-28 11:03:10,740 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600023，实际相应状态码：600023
+2022-01-28 11:03:10,740 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电子邮箱格式错误，实际相应msg：电子邮箱格式错误
+2022-01-28 11:03:10,744 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '', 'password': '12345678', 're_password': '12345678', 'type': 'email'}
+2022-01-28 11:03:11,145 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600021，实际相应状态码：600021
+2022-01-28 11:03:11,145 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱或密码不能为空，实际相应msg：邮箱或密码不能为空
+2022-01-28 11:03:11,149 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '5465327457@kacn.com', 'password': '', 're_password': '', 'type': 'email'}
+2022-01-28 11:03:11,592 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600021，实际相应状态码：600021
+2022-01-28 11:03:11,593 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱或密码不能为空，实际相应msg：邮箱或密码不能为空
+2022-01-28 11:03:11,595 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '5465327457@kacn.com', 'password': '12345', 're_password': '12345', 'type': 'email'}
+2022-01-28 11:03:12,426 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600025，实际相应状态码：600025
+2022-01-28 11:03:12,427 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：密码长度为6~20个字符，实际相应msg：密码长度为6~20个字符
+2022-01-28 11:03:12,436 INFO [root] [api_register.py (api_register_send_sms:42] - 正在调用手机注册——发送验证码接口，请求数据：{'nation_code': '86', 'phone': '17696640601'}
+2022-01-28 11:03:12,718 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600029，实际相应状态码：600029
+2022-01-28 11:03:12,718 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电话已存在，实际相应msg：电话已存在
+2022-01-28 11:11:45,065 INFO [root] [api_register.py (__init__:14] - 正在初始化注册url：https://kalele.swkjapi.cn/user/register
+2022-01-28 11:11:45,065 INFO [root] [api_register.py (__init__:17] - 正在初始化手机注册--发送验证码url：https://kalele.swkjapi.cn/user/reg_send_sms
+2022-01-28 11:11:45,065 INFO [root] [api_register.py (__init__:20] - 正在初始化手机注册--验证验证码url：https://kalele.swkjapi.cn/user/check_reg_sms
+2022-01-28 11:11:45,066 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '123456', 're_password': '123456', 'type': 'email'}
+2022-01-28 11:11:45,403 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600024，实际相应状态码：600024
+2022-01-28 11:11:45,403 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电子邮箱已存在，实际相应msg：电子邮箱已存在
+2022-01-28 11:11:45,407 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '11111111111111111111', 'password': '123456', 're_password': '123456', 'type': 'email'}
+2022-01-28 11:11:45,721 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600023，实际相应状态码：600023
+2022-01-28 11:11:45,722 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电子邮箱格式错误，实际相应msg：电子邮箱格式错误
+2022-01-28 11:11:45,726 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '', 'password': '12345678', 're_password': '12345678', 'type': 'email'}
+2022-01-28 11:11:46,050 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600021，实际相应状态码：600021
+2022-01-28 11:11:46,050 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱或密码不能为空，实际相应msg：邮箱或密码不能为空
+2022-01-28 11:11:46,054 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '5465327457@kacn.com', 'password': '', 're_password': '', 'type': 'email'}
+2022-01-28 11:11:46,361 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600021，实际相应状态码：600021
+2022-01-28 11:11:46,362 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱或密码不能为空，实际相应msg：邮箱或密码不能为空
+2022-01-28 11:11:46,370 INFO [root] [api_register.py (api_register:31] - 正在调用注册接口，请求数据：{'username': '5465327457@kacn.com', 'password': '12345', 're_password': '12345', 'type': 'email'}
+2022-01-28 11:11:46,683 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600025，实际相应状态码：600025
+2022-01-28 11:11:46,684 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：密码长度为6~20个字符，实际相应msg：密码长度为6~20个字符
+2022-01-28 11:11:46,689 INFO [root] [api_register.py (api_register_send_sms:42] - 正在调用手机注册——发送验证码接口，请求数据：{'nation_code': '86', 'phone': '17696640601'}
+2022-01-28 11:11:46,986 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600029，实际相应状态码：600029
+2022-01-28 11:11:46,986 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电话已存在，实际相应msg：电话已存在
+2022-01-28 11:11:46,992 INFO [root] [api_login.py (__init__:14] - 正在初始化邮箱/用户名登录接口url：https://kalele.swkjapi.cn/user/login
+2022-01-28 11:11:46,992 INFO [root] [api_login.py (__init__:17] - 正在初始化电话密码登录接口url：https://kalele.swkjapi.cn/user/login_phone
+2022-01-28 11:11:46,993 INFO [root] [api_login.py (__init__:20] - 正在初始化手机号登录--发送验证码接口url：https://kalele.swkjapi.cn/user/login_send_sms
+2022-01-28 11:11:46,993 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '123456'}
+2022-01-28 11:11:47,336 INFO [root] [tool.py (common_token:16] - 正在提取token，提取后的header为：{'Content-Type': 'application/x-www-form-urlencoded', 'device': 'ios', 'version': '1.0.14', 'currency': '0', 'User-Agent': 'iOS_KLT/1.0.14 (iPhone; iOS 14.6; Scale/2.00)', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkua2FsZXRvdS5jb20iLCJhdWQiOiJrYWxldG91X2FwcCIsImlhdCI6MTY0MzMzOTUwNywiZXhwIjoxNjQ1OTMxNTA3LCJ1c2VySWQiOjY5MTUyfQ.67M3ZRRfdXV_-oQvYml5qPf6N3kTG-BTTYI_I3lxW6g'}
+2022-01-28 11:11:47,336 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 11:11:47,337 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：登录成功，实际相应msg：登录成功
+2022-01-28 11:11:47,341 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': '63437568457@kacn.com', 'password': '123456'}
+2022-01-28 11:11:47,652 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600002，实际相应状态码：600002
+2022-01-28 11:11:47,653 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：账户不存在或密码错误，实际相应msg：账户不存在或密码错误
+2022-01-28 11:11:47,656 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '12345678'}
+2022-01-28 11:11:47,964 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600002，实际相应状态码：600002
+2022-01-28 11:11:47,965 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：账户不存在或密码错误，实际相应msg：账户不存在或密码错误
+2022-01-28 11:11:47,968 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': '', 'password': '111111111'}
+2022-01-28 11:11:48,321 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600001，实际相应状态码：600001
+2022-01-28 11:11:48,321 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：账户或密码不能为空，实际相应msg：账户或密码不能为空
+2022-01-28 11:11:48,327 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': ''}
+2022-01-28 11:11:48,649 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600001，实际相应状态码：600001
+2022-01-28 11:11:48,650 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：账户或密码不能为空，实际相应msg：账户或密码不能为空
+2022-01-28 11:11:48,656 INFO [root] [api_login.py (api_login_phone:33] - 正在调用电话密码登录接口，请求数据：{'phone': '17696640601', 'password': '123456', 'nation_code': '86'}
+2022-01-28 11:11:48,973 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 11:11:48,973 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：登录成功，实际相应msg：登录成功
+2022-01-28 11:11:48,979 INFO [root] [api_login.py (api_login_send_sms:40] - 正在调用登录-发送验证码接口，请求数据：{'nation_code': '86', 'phone': '17696640601'}
+2022-01-28 11:11:49,475 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 11:11:49,475 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：验证码发送成功，实际相应msg：验证码发送成功
+2022-01-28 11:11:49,480 INFO [root] [api_order.py (__init__:14] - 正在初始化订单列表url：https://kalele.swkjapi.cn/order/list
+2022-01-28 11:11:49,480 INFO [root] [api_order.py (__init__:17] - 正在初始化订单详情url：https://kalele.swkjapi.cn/order/detail
+2022-01-28 11:11:49,481 INFO [root] [api_order.py (__init__:20] - 正在初始化添加购物车url：https://kalele.swkjapi.cn/flow/addCart
+2022-01-28 11:11:49,481 INFO [root] [api_order.py (__init__:23] - 正在初始化checkout url：https://kalele.swkjapi.cn/flow/checkOut
+2022-01-28 11:11:49,481 INFO [root] [api_order.py (__init__:26] - 正在初始化生产订单 url：https://kalele.swkjapi.cn/flow/payDone
+2022-01-28 11:11:49,481 INFO [root] [api_order.py (api_order_list:32] - 正在调用订单列表接口，请求数据：{'page': '', 'page_size': '', 'status': 'unpaid'}
+2022-01-28 11:11:50,245 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 11:11:50,246 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 11:11:50,249 INFO [root] [api_order.py (api_order_detail:40] - 正在调用订单列表接口，请求数据：{'order_sn': '202201249095103'}
+2022-01-28 11:11:50,552 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 11:11:50,553 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 11:11:50,558 INFO [root] [api_order.py (api_order_add_cart:48] - 正在调用添加购物车接口，请求数据：{'goodsId': '1260', 'number': '1', 'goodsInput': '[{"name":"buy_url","value":"hehdh"}]'}
+2022-01-28 11:11:50,893 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 11:11:50,894 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 11:11:50,898 INFO [root] [api_order.py (api_order_checkout:56] - 正在调用checkout接口，请求数据：{'payId': '5', 'bonusId': '0'}
+2022-01-28 11:11:51,239 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 11:11:51,239 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 11:11:51,244 INFO [root] [api_order.py (api_order_paydone:64] - 正在调用生成订单接口，请求数据：{'payId': '5', 'bonusId': '0', 'useSurplus': '0'}
+2022-01-28 11:11:51,669 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 11:11:51,669 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:00:20,196 INFO [root] [api_login.py (__init__:14] - 正在初始化邮箱/用户名登录接口url：https://kalele.swkjapi.cn/user/login
+2022-01-28 15:00:20,196 INFO [root] [api_login.py (__init__:17] - 正在初始化电话密码登录接口url：https://kalele.swkjapi.cn/user/login_phone
+2022-01-28 15:00:20,196 INFO [root] [api_login.py (__init__:20] - 正在初始化手机号登录--发送验证码接口url：https://kalele.swkjapi.cn/user/login_send_sms
+2022-01-28 15:00:20,197 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '123456'}
+2022-01-28 15:00:20,210 ERROR [root] [test02_login.py (test01_login:40] - check_hostname requires server_hostname
+2022-01-28 15:00:20,215 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': '63437568457@kacn.com', 'password': '123456'}
+2022-01-28 15:00:20,225 ERROR [root] [test02_login.py (test01_login:49] - check_hostname requires server_hostname
+2022-01-28 15:00:20,230 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '12345678'}
+2022-01-28 15:00:20,241 ERROR [root] [test02_login.py (test01_login:49] - check_hostname requires server_hostname
+2022-01-28 15:00:20,245 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': '', 'password': '111111111'}
+2022-01-28 15:00:20,255 ERROR [root] [test02_login.py (test01_login:49] - check_hostname requires server_hostname
+2022-01-28 15:00:20,260 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': ''}
+2022-01-28 15:00:20,269 ERROR [root] [test02_login.py (test01_login:49] - check_hostname requires server_hostname
+2022-01-28 15:00:20,274 INFO [root] [api_login.py (api_login_phone:33] - 正在调用电话密码登录接口，请求数据：{'phone': '17696640601', 'password': '123456', 'nation_code': '86'}
+2022-01-28 15:00:20,452 INFO [root] [api_login.py (api_login_send_sms:40] - 正在调用登录-发送验证码接口，请求数据：{'nation_code': '86', 'phone': '17696640601'}
+2022-01-28 15:01:52,697 INFO [root] [api_login.py (__init__:14] - 正在初始化邮箱/用户名登录接口url：https://kalele.swkjapi.cn/user/login
+2022-01-28 15:01:52,697 INFO [root] [api_login.py (__init__:17] - 正在初始化电话密码登录接口url：https://kalele.swkjapi.cn/user/login_phone
+2022-01-28 15:01:52,697 INFO [root] [api_login.py (__init__:20] - 正在初始化手机号登录--发送验证码接口url：https://kalele.swkjapi.cn/user/login_send_sms
+2022-01-28 15:01:52,699 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '123456'}
+2022-01-28 15:01:53,030 INFO [root] [tool.py (common_token:16] - 正在提取token，提取后的header为：{'Content-Type': 'application/x-www-form-urlencoded', 'device': 'ios', 'version': '1.0.14', 'currency': '0', 'User-Agent': 'iOS_KLT/1.0.14 (iPhone; iOS 14.6; Scale/2.00)', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkua2FsZXRvdS5jb20iLCJhdWQiOiJrYWxldG91X2FwcCIsImlhdCI6MTY0MzM1MzMxMiwiZXhwIjoxNjQ1OTQ1MzEyLCJ1c2VySWQiOjY5MTUyfQ.i-BMBM-ersBbYw29F0QyLnMhVhxSciUbMHL-z-7w0i8'}
+2022-01-28 15:01:53,030 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:01:53,031 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：登录成功，实际相应msg：登录成功
+2022-01-28 15:01:53,034 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': '63437568457@kacn.com', 'password': '123456'}
+2022-01-28 15:01:53,322 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600002，实际相应状态码：600002
+2022-01-28 15:01:53,322 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：账户不存在或密码错误，实际相应msg：账户不存在或密码错误
+2022-01-28 15:01:53,328 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': '12345678'}
+2022-01-28 15:01:53,620 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600002，实际相应状态码：600002
+2022-01-28 15:01:53,620 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：账户不存在或密码错误，实际相应msg：账户不存在或密码错误
+2022-01-28 15:01:53,625 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': '', 'password': '111111111'}
+2022-01-28 15:01:53,927 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600001，实际相应状态码：600001
+2022-01-28 15:01:53,927 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：账户或密码不能为空，实际相应msg：账户或密码不能为空
+2022-01-28 15:01:53,930 INFO [root] [api_login.py (api_login:26] - 正在调用登录接口，请求数据：{'username': 'chenwanfeng@kacn.com', 'password': ''}
+2022-01-28 15:01:54,218 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600001，实际相应状态码：600001
+2022-01-28 15:01:54,218 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：账户或密码不能为空，实际相应msg：账户或密码不能为空
+2022-01-28 15:01:54,223 INFO [root] [api_login.py (api_login_phone:33] - 正在调用电话密码登录接口，请求数据：{'phone': '17696640601', 'password': '123456', 'nation_code': '86'}
+2022-01-28 15:01:54,553 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:01:54,554 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：登录成功，实际相应msg：登录成功
+2022-01-28 15:01:54,558 INFO [root] [api_login.py (api_login_send_sms:40] - 正在调用登录-发送验证码接口，请求数据：{'nation_code': '86', 'phone': '17696640601'}
+2022-01-28 15:01:55,092 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:01:55,093 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：验证码发送成功，实际相应msg：验证码发送成功
+2022-01-28 15:02:56,161 INFO [root] [api_goods.py (__init__:14] - 正在初始化商品详情接口url：https://kalele.swkjapi.cn/goods/v2/detail
+2022-01-28 15:02:56,161 INFO [root] [api_goods.py (__init__:17] - 正在初始化商品价格计算接口url：https://kalele.swkjapi.cn/goods/price
+2022-01-28 15:02:56,162 INFO [root] [api_goods.py (__init__:20] - 正在初始化商品搜索接口url：https://kalele.swkjapi.cn/search/list
+2022-01-28 15:02:56,162 INFO [root] [api_goods.py (__init__:23] - 正在初始化商品分类接口url：https://kalele.swkjapi.cn/category/module_list
+2022-01-28 15:02:56,162 INFO [root] [api_goods.py (__init__:26] - 正在初始化商品分类列表接口url：https://kalele.swkjapi.cn/category/goods
+2022-01-28 15:02:56,162 INFO [root] [api_goods.py (api_goods_detail:32] - 正在调用商品详情接口，请求数据：{'goodsId': '1430'}
+2022-01-28 15:02:56,741 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:02:56,742 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:02:56,745 INFO [root] [api_goods.py (api_goods_price:39] - 正在调用商品价格计算接口，请求数据：{'goodsId': '1430', 'number': '2'}
+2022-01-28 15:02:57,082 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:02:57,082 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:02:57,087 INFO [root] [api_goods.py (api_goods_search:46] - 正在调用商品搜索接口，请求数据：{'keywords': '1430', 'page': '2'}
+2022-01-28 15:02:58,705 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：1200003
+2022-01-28 15:02:58,706 ERROR [root] [test04_goods.py (test03_goods_price:46] - 
+2022-01-28 15:02:58,708 INFO [root] [api_goods.py (api_goods_category:51] - 正在调用全部商品分类接口
+2022-01-28 15:02:59,242 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:02:59,245 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:02:59,248 INFO [root] [api_goods.py (api_goods_category_list:58] - 正在调用商品分类列表接口，请求数据：{'catId': '527', 'page': '1'}
+2022-01-28 15:02:59,525 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:02:59,526 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:07:06,800 INFO [root] [api_goods.py (__init__:14] - 正在初始化商品详情接口url：https://kalele.swkjapi.cn/goods/v2/detail
+2022-01-28 15:07:06,800 INFO [root] [api_goods.py (__init__:17] - 正在初始化商品价格计算接口url：https://kalele.swkjapi.cn/goods/price
+2022-01-28 15:07:06,800 INFO [root] [api_goods.py (__init__:20] - 正在初始化商品搜索接口url：https://kalele.swkjapi.cn/search/list
+2022-01-28 15:07:06,800 INFO [root] [api_goods.py (__init__:23] - 正在初始化商品分类接口url：https://kalele.swkjapi.cn/category/module_list
+2022-01-28 15:07:06,800 INFO [root] [api_goods.py (__init__:26] - 正在初始化商品分类列表接口url：https://kalele.swkjapi.cn/category/goods
+2022-01-28 15:07:06,800 INFO [root] [api_goods.py (api_goods_detail:32] - 正在调用商品详情接口，请求数据：{'goodsId': '1430'}
+2022-01-28 15:07:07,166 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:07:07,167 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:07:07,170 INFO [root] [api_goods.py (api_goods_price:39] - 正在调用商品价格计算接口，请求数据：{'goodsId': '1430', 'number': '2'}
+2022-01-28 15:07:07,442 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:07:07,442 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:07:07,446 INFO [root] [api_goods.py (api_goods_search:46] - 正在调用商品搜索接口，请求数据：{'keywords': '1430', 'page': '2'}
+2022-01-28 15:07:08,899 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：1200003
+2022-01-28 15:07:08,899 ERROR [root] [test04_goods.py (test03_goods_price:49] - 
+2022-01-28 15:07:08,902 INFO [root] [api_goods.py (api_goods_category:51] - 正在调用全部商品分类接口
+2022-01-28 15:07:09,493 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:07:09,494 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:07:09,497 INFO [root] [api_goods.py (api_goods_category_list:58] - 正在调用商品分类列表接口，请求数据：{'catId': '527', 'page': '1'}
+2022-01-28 15:07:09,779 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:07:09,780 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:08:15,423 INFO [root] [api_goods.py (__init__:14] - 正在初始化商品详情接口url：https://kalele.swkjapi.cn/goods/v2/detail
+2022-01-28 15:08:15,423 INFO [root] [api_goods.py (__init__:17] - 正在初始化商品价格计算接口url：https://kalele.swkjapi.cn/goods/price
+2022-01-28 15:08:15,425 INFO [root] [api_goods.py (__init__:20] - 正在初始化商品搜索接口url：https://kalele.swkjapi.cn/search/list
+2022-01-28 15:08:15,425 INFO [root] [api_goods.py (__init__:23] - 正在初始化商品分类接口url：https://kalele.swkjapi.cn/category/module_list
+2022-01-28 15:08:15,425 INFO [root] [api_goods.py (__init__:26] - 正在初始化商品分类列表接口url：https://kalele.swkjapi.cn/category/goods
+2022-01-28 15:08:15,425 INFO [root] [api_goods.py (api_goods_detail:32] - 正在调用商品详情接口，请求数据：{'goodsId': '1430'}
+2022-01-28 15:08:15,844 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:08:15,844 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:08:15,847 INFO [root] [api_goods.py (api_goods_price:39] - 正在调用商品价格计算接口，请求数据：{'goodsId': '1430', 'number': '2'}
+2022-01-28 15:08:16,146 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:08:16,146 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:08:16,151 INFO [root] [api_goods.py (api_goods_search:46] - 正在调用商品搜索接口，请求数据：{'keywords': '代购', 'page': '1'}
+2022-01-28 15:08:17,652 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:08:17,652 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:08:17,656 INFO [root] [api_goods.py (api_goods_category:51] - 正在调用全部商品分类接口
+2022-01-28 15:08:18,233 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:08:18,234 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:08:18,238 INFO [root] [api_goods.py (api_goods_category_list:58] - 正在调用商品分类列表接口，请求数据：{'catId': '527', 'page': '1'}
+2022-01-28 15:08:18,521 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:08:18,522 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 15:38:10,815 INFO [root] [api_forgot.py (__init__:14] - 正在初始化手机忘记密码接口url：https://kalele.swkjapi.cn/user/find_pwd_phone
+2022-01-28 15:38:10,816 INFO [root] [api_forgot.py (__init__:17] - 正在初始化邮箱忘记密码--发送验证码接口url：https://kalele.swkjapi.cn/email/get_code
+2022-01-28 15:38:10,816 INFO [root] [api_forgot.py (__init__:20] - 正在初始化邮箱忘记密码--验证验证码接口url：https://kalele.swkjapi.cn/user/forgot
+2022-01-28 15:38:10,816 INFO [root] [api_forgot.py (api_forgot_find_pwd_phone:26] - 正在调用手机忘记密码接口，请求数据：{'nation_code': '86', 'phone': '17696640601'}
+2022-01-28 15:38:11,323 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 15:38:11,324 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：验证码发送成功，实际相应msg：验证码发送成功
+2022-01-28 15:38:11,331 INFO [root] [api_forgot.py (api_forgot_find_pwd_phone:26] - 正在调用手机忘记密码接口，请求数据：{'nation_code': '86', 'phone': '17699999999'}
+2022-01-28 15:38:11,618 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600049，实际相应状态码：600049
+2022-01-28 15:38:11,619 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：手机号不存在，实际相应msg：手机号不存在
+2022-01-28 15:38:11,623 INFO [root] [api_forgot.py (api_forgot_find_pwd_phone:26] - 正在调用手机忘记密码接口，请求数据：{'nation_code': '', 'phone': '17699999999'}
+2022-01-28 15:38:11,881 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600048，实际相应状态码：600048
+2022-01-28 15:38:11,882 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：手机国际码与手机号不可为空，实际相应msg：手机国际码与手机号不可为空
+2022-01-28 15:38:11,887 INFO [root] [api_forgot.py (api_forgot_find_pwd_phone:26] - 正在调用手机忘记密码接口，请求数据：{'nation_code': '86', 'phone': ''}
+2022-01-28 15:38:12,354 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600048，实际相应状态码：600048
+2022-01-28 15:38:12,355 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：手机国际码与手机号不可为空，实际相应msg：手机国际码与手机号不可为空
+2022-01-28 15:52:04,402 INFO [root] [api_forgot.py (__init__:14] - 正在初始化手机忘记密码接口url：https://kalele.swkjapi.cn/user/find_pwd_phone
+2022-01-28 15:52:04,402 INFO [root] [api_forgot.py (__init__:17] - 正在初始化邮箱忘记密码--发送验证码接口url：https://kalele.swkjapi.cn/email/get_code
+2022-01-28 15:52:04,403 INFO [root] [api_forgot.py (__init__:20] - 正在初始化邮箱忘记密码--验证验证码接口url：https://kalele.swkjapi.cn/user/forgot
+2022-01-28 15:52:04,403 INFO [root] [api_forgot.py (api_forgot_email_get_code:33] - 正在调用邮箱忘记密码--发送验证码接口，请求数据：{'email': 'chenwanfeng@kacn.com'}
+2022-01-28 15:52:06,039 INFO [root] [api_forgot.py (api_forgot_email_get_code:33] - 正在调用邮箱忘记密码--发送验证码接口，请求数据：{'email': '53475465757@kacn.com'}
+2022-01-28 15:52:06,308 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600032，实际相应状态码：600032
+2022-01-28 15:52:06,308 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电子邮箱未注册，实际相应msg：电子邮箱未注册
+2022-01-28 15:52:06,312 INFO [root] [api_forgot.py (api_forgot_email_get_code:33] - 正在调用邮箱忘记密码--发送验证码接口，请求数据：{'email': '666'}
+2022-01-28 15:52:06,589 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600031，实际相应状态码：600031
+2022-01-28 15:52:06,590 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱格式错误，实际相应msg：邮箱格式错误
+2022-01-28 15:52:06,595 INFO [root] [api_forgot.py (api_forgot_email_get_code:33] - 正在调用邮箱忘记密码--发送验证码接口，请求数据：{'email': ''}
+2022-01-28 15:52:06,868 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600030，实际相应状态码：600030
+2022-01-28 15:52:06,868 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱不能为空，实际相应msg：邮箱不能为空
+2022-01-28 16:00:28,922 INFO [root] [api_forgot.py (__init__:14] - 正在初始化手机忘记密码接口url：https://www.kaleleshop.com/user/find_pwd_phone
+2022-01-28 16:00:28,922 INFO [root] [api_forgot.py (__init__:17] - 正在初始化邮箱忘记密码--发送验证码接口url：https://www.kaleleshop.com/email/get_code
+2022-01-28 16:00:28,922 INFO [root] [api_forgot.py (__init__:20] - 正在初始化邮箱忘记密码--验证验证码接口url：https://www.kaleleshop.com/user/forgot
+2022-01-28 16:00:28,923 INFO [root] [api_forgot.py (api_forgot_find_pwd_phone:26] - 正在调用手机忘记密码接口，请求数据：{'nation_code': '86', 'phone': '17696640601'}
+2022-01-28 16:00:30,452 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 16:00:30,452 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：验证码发送成功，实际相应msg：验证码发送成功
+2022-01-28 16:00:30,456 INFO [root] [api_forgot.py (api_forgot_find_pwd_phone:26] - 正在调用手机忘记密码接口，请求数据：{'nation_code': '86', 'phone': '17699999999'}
+2022-01-28 16:00:31,301 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600049，实际相应状态码：600049
+2022-01-28 16:00:31,301 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：手机号不存在，实际相应msg：手机号不存在
+2022-01-28 16:00:31,305 INFO [root] [api_forgot.py (api_forgot_find_pwd_phone:26] - 正在调用手机忘记密码接口，请求数据：{'nation_code': '', 'phone': '17699999999'}
+2022-01-28 16:00:31,984 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600048，实际相应状态码：600048
+2022-01-28 16:00:31,984 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：手机国际码与手机号不可为空，实际相应msg：手机国际码与手机号不可为空
+2022-01-28 16:00:31,991 INFO [root] [api_forgot.py (api_forgot_find_pwd_phone:26] - 正在调用手机忘记密码接口，请求数据：{'nation_code': '86', 'phone': ''}
+2022-01-28 16:00:32,678 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600048，实际相应状态码：600048
+2022-01-28 16:00:32,679 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：手机国际码与手机号不可为空，实际相应msg：手机国际码与手机号不可为空
+2022-01-28 16:00:32,681 INFO [root] [api_forgot.py (api_forgot_email_get_code:33] - 正在调用邮箱忘记密码--发送验证码接口，请求数据：{'email': 'chenwanfeng@kacn.com'}
+2022-01-28 16:00:35,806 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：200，实际相应状态码：200
+2022-01-28 16:00:35,807 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：成功，实际相应msg：成功
+2022-01-28 16:00:35,813 INFO [root] [api_forgot.py (api_forgot_email_get_code:33] - 正在调用邮箱忘记密码--发送验证码接口，请求数据：{'email': '53475465757@kacn.com'}
+2022-01-28 16:00:36,517 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600032，实际相应状态码：600032
+2022-01-28 16:00:36,517 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：电子邮箱未注册，实际相应msg：电子邮箱未注册
+2022-01-28 16:00:36,522 INFO [root] [api_forgot.py (api_forgot_email_get_code:33] - 正在调用邮箱忘记密码--发送验证码接口，请求数据：{'email': '666'}
+2022-01-28 16:00:37,222 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600031，实际相应状态码：600031
+2022-01-28 16:00:37,222 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱格式错误，实际相应msg：邮箱格式错误
+2022-01-28 16:00:37,225 INFO [root] [api_forgot.py (api_forgot_email_get_code:33] - 正在调用邮箱忘记密码--发送验证码接口，请求数据：{'email': ''}
+2022-01-28 16:00:37,904 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600030，实际相应状态码：600030
+2022-01-28 16:00:37,904 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：邮箱不能为空，实际相应msg：邮箱不能为空
+2022-01-28 16:00:37,910 INFO [root] [api_forgot.py (api_forgot_email_check_code:40] - 正在调用邮箱忘记密码--验证验证码接口，请求数据：{'email': 'chenwanfeng@kacn.com', 'v_code': '111111'}
+2022-01-28 16:00:38,613 INFO [root] [tool.py (common_assert:27] - 正在断言状态码，预期状态码：600044，实际相应状态码：600044
+2022-01-28 16:00:38,613 INFO [root] [tool.py (common_assert:29] - 正在断言响应信息，预期msg：验证码错误，实际相应msg：验证码错误

@@ -1,0 +1,6 @@
+邮箱,密码,返回code,返回msg,是否正向
+apiAutoTest@kacn.com,111111,200,登录成功,true
+63437568457@kacn.com,123456,600002,账户不存在或密码错误,false
+chenwanfeng@kacn.com,12345678,600002,账户不存在或密码错误,false
+,111111111,600001,账户或密码不能为空,false
+chenwanfeng@kacn.com,,600001,账户或密码不能为空,false
